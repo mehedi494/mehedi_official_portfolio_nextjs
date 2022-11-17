@@ -1,0 +1,16 @@
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color:#273444;
+}
+
+.name {
+   font-family: 'Josefin Sans', sans-serif;
+    font-weight:500;
+    font-size: 3rem;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}

@@ -55,7 +55,7 @@ function Navbar() {
                             <Image className="ml-5 " inline-block src={logoblack} title="logo" alt="Logo" width={50} height={50} />
                 }
                </div>
-                <h1 title="MEHEDI HASAN MUNNA" className="ml-0  text-3xl font-bold inline-block text-stone-900   dark:text-white">ehedi Hasan <span className="text-lime-500 ">Munna</span></h1>
+                <h1 title="MEHEDI HASAN MUNNA" className="ml-0  text-4xl font-bold inline-block text-stone-900   dark:text-white"> <span className="text-lime-500 ">.Dev</span></h1>
             </div>
 
             <div className="navbar-end mr-5 ">
