@@ -3,11 +3,11 @@ import js from "../public/js.png"
 import react from "../public/react.png"
 import redux from "../public/Redux.png"
 import node from "../public/nodejs.png"
-import mongo from "../public/mongodb.png"
+import mongo from "../public/MongoDB-Emblem.jpg"
 import express from "../public/express.png"
 
 const Service = () => {
-    return (<div className="pt-2">
+    return (<div className="pt-2 dark:text-white">
         <h1 className="text-center text-4xl font-semibold font-Josefin">SERVICES</h1>
         <h1 className="text-center text-xl font-regular font-poppins">what i will do for you</h1>
         <div className="text-stone-900 dark:text-white mt-5 grid md:grid-cols-1 lg:grid-cols-3

@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import HeroSection from './../components/HeroSection';
+import Navbar from '../components/navbar'
+import HeroSection from '../components/heroSection';
 import Style from "../styles/Home.module.css"
-import Testimonial from '../components/Testimonial';
+import Testimonial from '../components/testimonial';
 import Service from '../components/services';
+import About from '../components/about';
 
 
 
@@ -13,7 +14,7 @@ import Service from '../components/services';
 
 export default function Home() {
   return (
-    <div className= {Style.body}  >
+    <div className={Style.body}  >
       <div className="bg-white  dark:bg-gray-900 ">
         <Head>
 
@@ -22,20 +23,21 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
 
         </Head>
-        <Navbar></Navbar>
 
         <header>
-
-          <HeroSection></HeroSection>
+        </header>
+          <Navbar></Navbar>
+        <HeroSection></HeroSection>
+        
+        <main>
+          <About></About>
           <Service></Service>
           <Testimonial></Testimonial>
-          </header>
-        <main>
 
         </main>
 
 
-     </div>
+      </div>
     </div>
   )
 }
