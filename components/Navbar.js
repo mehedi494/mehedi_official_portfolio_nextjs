@@ -56,7 +56,7 @@ function Navbar() {
             <div className="navbar-start mr-6">
 
                 {
-                    theme === "dark" ? <Image className="ml-5 " inline-block src={logowhite} title="logo" alt="logo" width={50} height={50} />
+                    theme === "dark" ? <Image className="ml-5 " inline="true" inline-block src={logowhite} title="logo" alt="logo" width={50} height={50} />
                         :
                         <Image className="ml-5 " inline src={logoblack} title="logo" alt="Logo" width={50} height={50} />
                 }
@@ -74,9 +74,10 @@ function Navbar() {
             <div className="navbar-end mr-5 2xl:block xl:block lg:block    md:hidden sm:hidden  ">
 
 
-                <button className=" hover:bg-sky-700  hover:text-white text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle p-4 btn-lg glass mr-5">Home</button>
-                <button className=" hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle btn-lg glass p-4 mr-5">About</button>
-                <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle btn-lg p4 glass  mr-5">Contact</button>
+                <button className=" hover:bg-sky-700  hover:text-white text-gray-900 dark:text-gray-100 btn  btn-lg glass mr-5">Home</button>
+                <button className=" hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle btn-lg glass  mr-5">About</button>
+                <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle btn-lg  glass  mr-5">Contact</button>
+                <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-secondary btn-lg  glass  mr-5">Projects</button>
                 {/* <input onClick={themehandler} type="checkbox" title="theme switch" className="btn-ghost form-control toggle toggle-warning  checked" /> */}
 
               

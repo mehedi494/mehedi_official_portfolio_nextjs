@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
-import HeroSection from '../components/heroSection';
+import Navbar from '../components/Navbar'
+import HeroSection from '../components/HeroSection';
 import Style from "../styles/Home.module.css"
 import Testimonial from '../components/testimonial';
-import Service from '../components/services';
-import About from '../components/about';
+import Service from '../components/Services';
+import About from '../components/About';
+import Footer from '../components/Footer';
 
 
 
@@ -35,6 +36,9 @@ export default function Home() {
           <Testimonial></Testimonial>
 
         </main>
+        
+          <Footer></Footer>
+        
 
 
       </div>
