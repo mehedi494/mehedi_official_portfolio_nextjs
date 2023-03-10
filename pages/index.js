@@ -14,7 +14,7 @@ import Footer from './../components/footer';
 
 export default function Home() {
   return (
-    <div className={Style.body}  >
+    <div  >
       <div className="bg-white  dark:bg-gray-900 ">
         <Head>
 
@@ -26,18 +26,18 @@ export default function Home() {
 
         <header>
         </header>
-          <Navbar></Navbar>
+        <Navbar></Navbar>
         <HeroSection></HeroSection>
-        
+
         <main>
           <About></About>
           <Service></Service>
           <Testimonial></Testimonial>
 
         </main>
-        
-          <Footer></Footer>
-        
+
+        <Footer></Footer>
+
 
 
       </div>
