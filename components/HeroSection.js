@@ -25,7 +25,7 @@ function HeroSection({ StyleHeroSec }) {
 
             </div>
             <div class="order-first">
-                <Image className='w-full' src={dp} width={500} alt="image"></Image>
+                <Image unoptimized={true} className='w-full' src={dp} width={500} alt="image"></Image>
             </div>
 
 

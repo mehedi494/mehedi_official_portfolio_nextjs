@@ -9,6 +9,7 @@ module.exports = nextConfig
 
 module.exports = {
   images: {
-    domains: ['i.ibb.co'],
+    unoptimized: true
+   
   },
 }
