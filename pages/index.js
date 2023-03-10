@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import HeroSection from '../components/HeroSection';
-import Style from "../styles/Home.module.css"
-import Testimonial from '../components/testimonial';
-import Service from '../components/Services';
-import About from '../components/About';
-import Footer from '../components/Footer';
+import Navbar from './../components/navbar';
+import HeroSection from './../components/heroSection';
+import About from './../components/about';
+import Service from './../components/services';
+import Testimonial from './../components/testimonial';
+import Footer from './../components/footer';
 
 
 
