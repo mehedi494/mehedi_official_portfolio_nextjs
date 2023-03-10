@@ -1,10 +1,14 @@
+import useDownloader from "react-use-downloader";
 import Image from "next/image";
-import Link from "next/link";
 import dp from "../public/me-with-shape.png";
 
 
 function HeroSection({ StyleHeroSec }) {
-
+    const { size, elapsed, percentage, download,
+        cancel, error, isInProgress } =
+        useDownloader();
+    const fileUrl = "/resume-of-MEHEDI_HASAN.pdf";
+    const filename = "resume-of-MEHEDI_HASAN.pdf";
     return (<>
         <div className="text-stone-900 dark:text-white mt-5 grid md:grid-cols-2 lg:grid-cols-2
         sm:grid-col-1  gap-5 w-full  h-full ">
@@ -19,8 +23,8 @@ function HeroSection({ StyleHeroSec }) {
                 <p className="font-raleway">I m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction. I love to solve real-world problems. I am strategic, and goal-oriented, and always work with an end goal in mind.</p>
                 <div className="mt-5 flex justify-base gap-4">
                     <button className="btn btn-lg no-animation outline-dashed   dark:hover:text-white">HIRE ME</button>
-                    
-                    <Link href="/dev-resume-19-1-23.pdf" download><button className="btn btn-lg">download Resume</button></Link>
+
+                    <button onClick={() => download(fileUrl, filename)} className="btn btn-lg">download Resume</button>
                 </div>
 
             </div>
