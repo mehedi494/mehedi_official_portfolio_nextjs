@@ -7,8 +7,8 @@ function HeroSection({ StyleHeroSec }) {
     const { size, elapsed, percentage, download,
         cancel, error, isInProgress } =
         useDownloader();
-    const fileUrl = "/resume-of-MEHEDI_HASAN.pdf";
-    const filename = "resume-of-MEHEDI_HASAN.pdf";
+    const fileUrl = "/resume-of-mehedi-hasan.pdf";
+    const filename = "resume-of-mehedi-hasan.pdf";
     return (<>
         <div className="text-stone-900 dark:text-white mt-5 grid md:grid-cols-2 lg:grid-cols-2
         sm:grid-col-1  gap-5 w-full  h-full ">
