@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import logoblack from "../public/logoblack.png"
 import logowhite from "../public/logowhite.png"
+import Link from "next/link";
 
 function Navbar() {
     const [theme, setTheme] = useState(null);
@@ -74,10 +75,12 @@ function Navbar() {
             <div className="navbar-end mr-5 2xl:block xl:block lg:block    md:hidden sm:hidden  ">
 
 
-                <button className=" hover:bg-sky-700  hover:text-white text-gray-900 dark:text-gray-100 btn  btn-lg glass mr-5">Home</button>
-                <button className=" hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle btn-lg glass  mr-5">About</button>
-                <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-circle btn-lg  glass  mr-5">Contact</button>
-                <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-secondary btn-lg  glass  mr-5">Projects</button>
+                <button className=" hover:bg-sky-700  hover:text-white text-gray-900 dark:text-gray-100 btn glass mr-5">Home</button>
+                <button className=" hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost  glass  mr-5">About</button>
+                <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost   glass  mr-5">Contact</button>
+               
+                <Link href='/showcase'>
+                <button  className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost btn-secondary  glass  mr-5">ShowCase</button></Link>
                 {/* <input onClick={themehandler} type="checkbox" title="theme switch" className="btn-ghost form-control toggle toggle-warning  checked" /> */}
 
               
