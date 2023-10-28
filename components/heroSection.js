@@ -2,13 +2,13 @@ import Image from "next/image";
 import useDownloader from "react-use-downloader";
 import Typewriter from "typewriter-effect";
 import dp from "../public/me-with-shape.png";
+import Styles from"../styles/heroSection.module.css";
 
 function HeroSection({ StyleHeroSec }) {
   const { size, elapsed, percentage, download, cancel, error, isInProgress } =
     useDownloader();
   const fileUrl = "/Full Stack Resume (Oct-2023).pdf";
   const filename = "Full Stack Resume (Oct-2023).pdf";
-  
 
   return (
     <>
@@ -23,7 +23,7 @@ function HeroSection({ StyleHeroSec }) {
           <h1 className="text-gray-700 sm:sm:text-2xl md:md:text-3xl text-5xl lg:lg:text-4xl font-Josefin  font-bold dark:text-gray-400  ">
             Mehedi Hasan Munna
           </h1>
-          <div >
+          <div>
             <h1 className=" font-poppins font-semibold text-rose-700 dark:text-orange-300 md:text-2xl sm:text-base">
               <Typewriter
                 options={{
@@ -60,7 +60,7 @@ function HeroSection({ StyleHeroSec }) {
             </button>
           </div>
         </div>
-        <div class="order-first">
+        <div class={`orderfirst swanAnimantion ${Styles.swanAnimantion}`}>
           <Image className="w-full" src={dp} width={500} alt="image"></Image>
         </div>
       </div>
