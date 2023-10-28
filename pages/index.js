@@ -18,6 +18,7 @@ export default function Home() {
 
         <header></header>
         <Navbar></Navbar>
+
         <HeroSection></HeroSection>
 
         <main className="">

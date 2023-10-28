@@ -1,14 +1,17 @@
-.bgImg{
-    background-image: url("../public/footer\ img.jpg");
-    height: 50vh;
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    
-    background-origin: content-box;
-    
-    background-color: #0C1C33;
+.bgImg {
+  /* background-image: url("/Dark-blu-bg.jpg"); */
+  background: linear-gradient(#42275a, #734b6d);
+  height: 50vh;
+  width: auto;
+  
+  backdrop-filter: inherit;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  background-origin: content-box;
+
+  background-color: #0c1c33;
 }
-.color{
-    background-color: #0C1C33
-}
+/* .color {
+  background-color: #0c1c33;
+} */

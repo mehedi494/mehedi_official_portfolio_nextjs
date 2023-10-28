@@ -4,7 +4,7 @@ const About = () => {
         <h1 className="text-center text-xl font-regular font-poppins">what i will do for you</h1>
 
         <div className="text-stone-900 dark:text-white mt-5 grid md:grid-cols-1 lg:grid-cols-2
-        sm:grid-col-1  gap-5 w-full  h-full px-4 bg-slate-50 dark:bg-inherit ">
+        sm:grid-col-1  gap-5 w-full  h-full px-4  dark:bg-inherit ">
 
             <div className="flex-row   justify-center text-justify p-2 h-80    ">
                 <div className="flex justify-center  ">
