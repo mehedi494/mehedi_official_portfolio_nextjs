@@ -38,7 +38,7 @@ const porjects =[{
 
       
 
-      <div className="grid grid-cols-3 my-2 gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-2 gap-4">
         {porjects.map((item, index) => (
           <Card
             key={index}

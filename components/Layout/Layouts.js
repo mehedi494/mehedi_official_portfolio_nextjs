@@ -2,7 +2,7 @@ import Footer from "../footer";
 import Navbar from "../navbar";
 
 const Layouts = ({ children }) => {
-  console.log(children);
+
   return (
     <div style={{ minHeight: "100vh" }}>
       <Navbar></Navbar>
