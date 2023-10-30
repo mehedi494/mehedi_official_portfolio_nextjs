@@ -108,12 +108,14 @@ function Navbar() {
             Home
           </button>
         </Link>
-        <button className="btn  hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100  glass  mr-5">
-          About
-        </button>
         <Link href="/contacts">
           <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn   glass  mr-5">
             Contact
+          </button>
+        </Link>
+        <Link href="/blogs">
+          <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn   glass  mr-5">
+            Blogs
           </button>
         </Link>
 

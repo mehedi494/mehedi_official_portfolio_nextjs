@@ -11,9 +11,9 @@ function HeroSection({ StyleHeroSec }) {
   const filename = "Full Stack Resume (Oct-2023).pdf";
 
   return (
-    <>
+    < >
       <div
-        className="text-stone-900 dark:text-white grid md:grid-cols-2 lg:grid-cols-2
+        className="  text-stone-900 dark:text-white grid md:grid-cols-2 lg:grid-cols-2
         sm:grid-col-1  gap-5 w-full  h-full ">
         <div className="lg:order-first md:order first sm:order-last flex-row-1 mx-auto my-auto items-center text-justify p-4">
           <p className="font-poppins font-regular text-base ">

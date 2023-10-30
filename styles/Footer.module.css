@@ -1,7 +1,7 @@
 .bgImg {
   /* background-image: url("/Dark-blu-bg.jpg"); */
-  background: linear-gradient( #636FA4,#0b1750);
-  height: 50vh;
+  
+  min-height: 50vh;
   width: auto;
   
   backdrop-filter: inherit;
@@ -10,7 +10,7 @@
 
   background-origin: content-box;
 
-  background-color: #0c1c33;
+  
 }
 /* .color {
   background-color: #0c1c33;

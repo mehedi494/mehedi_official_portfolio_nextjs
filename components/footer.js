@@ -55,8 +55,8 @@ const Footer = () => {
   ];
   return (
     <>
-      <div className={style.bgImg}>
-        <div className="flex flex-col-3 px-8 py-4  items-center text-white ">
+      <div className="dark:bg-[#430356]  bg-[#303640]">
+        <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3   px-8 py-4  items-center text-white ">
           {/* <p className="font-poppins">MERN STACK (MongoDb Express React Node ) </p> */}
 
           <div className=" flex flex-col mb-3 items-center  ml-2">
@@ -91,12 +91,11 @@ const Footer = () => {
             <div className="flex flex-col-2 justify-around ">
               <ul>
                 {tools.map((items, index) => (
-                 <Link href={items.url} target="_blank" key={index}>
-                  <li
-                    
-                    className="text-white hover:text-gray-200 cursor-pointer hover:transition-all">
-                    {items.tools}
-                  </li></Link>
+                  <Link href={items.url} target="_blank" key={index}>
+                    <li className="text-white hover:text-gray-200 cursor-pointer hover:transition-all">
+                      {items.tools}
+                    </li>
+                  </Link>
                 ))}
               </ul>
               <ul>
@@ -121,7 +120,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center text-gray-400">
-        ©️ {year} All right reserve Developer- Mehedi Hasan Munna
+          ©️ {year} All right reserve Developer- Mehedi Hasan Munna
         </p>
       </div>
     </>

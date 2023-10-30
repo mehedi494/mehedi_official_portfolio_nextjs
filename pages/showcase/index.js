@@ -5,6 +5,29 @@ import Card from "../../components/ui/card";
 
 const ShowCase = () => {
   const dummy = [1, 2, 3, 4];
+const porjects =[{
+  name:"Pc-builder site",
+  imageUrl:"https://i.ibb.co/5FR2kF4/pcbuilder.png",
+  github:"https://github.com/mehedi494/Pc-builder",
+  liveLink:"https://pc-builder-fronend.vercel.app/",
+  tools:" react.js Express.js, MongoDB"
+},
+{
+  name:"BookSellig site",
+  imageUrl:"https://i.ibb.co/Fg2cBY9/book-Shelf.png",
+  github:"https://github.com/mehedi494/book-shelf",
+  liveLink:"https://book-self-frontend.onrender.com/",
+  tools:" Next.js Express.js, MongoDB"
+},
+{
+  name:"Dental Service Site",
+  imageUrl:"https://i.ibb.co/gSTr61M/doctor-portal.png  ",
+  github:"https://github.com/mehedi494/Doctors_PortalClient",
+  liveLink:"https://sparkling-beijinho-ad8483.netlify.app/",
+  tools:"React.js, Firebase, Express.js, MongoDB"
+}
+]
+
   return (
     <div className="flex justify-center align-middle  items-center">
       <Head>
@@ -13,29 +36,18 @@ const ShowCase = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/*  <div className="grid grid-cols-3 gap-4">
-        {dummy.map((item,index ) => (
-            <Card
-              key={index}
-              srcUrl="/Dark-blu-bg.jpg"
-              cardTitle="Demo Card"
-              cardBody="This is a demo card"
-              buttonTitle="View More"
-            />
-          )
-        )}
-      </div> */}
+      
 
-      <div className="grid grid-cols-3 gap-4">
-        {dummy.map((item, index) => (
+      <div className="grid grid-cols-3 my-2 gap-4">
+        {porjects.map((item, index) => (
           <Card
             key={index}
             /* srcUrl="/man1.jpg" */
-            srcUrl="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1469&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            cartTitle="This demo card"
-            cardBody="This Card body"
-            github={`http://github.com/mehedi494/`}
-            liveLink={`http://github.com/mehedi494/`}
+            srcUrl={item.imageUrl}
+            cartTitle={item.name}
+            cardBody={item.tools}
+            github={item.github}
+            liveLink={item.liveLink}
             buttonTitle1="Live-link"
             buttonTitle2="source-code"></Card>
         ))}
