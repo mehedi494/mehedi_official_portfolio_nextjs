@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Layouts from "../../components/Layout/Layouts";
 import Card from "../../components/ui/card";
 
 const ShowCase = () => {
@@ -29,10 +30,14 @@ const ShowCase = () => {
         {dummy.map((item, index) => (
           <Card
             key={index}
-            srcUrl="/Dark-blu-bg.jpg"
+            /* srcUrl="/man1.jpg" */
+            srcUrl="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1469&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             cartTitle="This demo card"
             cardBody="This Card body"
-            buttonTitle="view more"></Card>
+            github={`http://github.com/mehedi494/`}
+            liveLink={`http://github.com/mehedi494/`}
+            buttonTitle1="Live-link"
+            buttonTitle2="source-code"></Card>
         ))}
       </div>
     </div>
@@ -40,4 +45,7 @@ const ShowCase = () => {
 };
 
 export default ShowCase;
-<h1>Project are comming soon...</h1>;
+
+ShowCase.getLayout = (page) => {
+  return <Layouts>{page}</Layouts>;
+};

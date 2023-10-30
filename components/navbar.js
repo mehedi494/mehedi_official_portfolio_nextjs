@@ -28,7 +28,7 @@ function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <div className="navbar bg-gray-50/50 dark:bg-gray-600/50 backdrop-blur-lg dark:text-white sticky top-0">
+    <div className="navbar bg-inherit dark:bg-sky-900 backdrop-blur-lg dark:text-white sticky top-0">
       <div className="navbar-start sm:block md:block lg:hidden xl:hidden 2xl:hidden">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -100,15 +100,19 @@ function Navbar() {
         </h1>
       </div>
 
-      <div className="navbar-end mr-5 2xl:block xl:block lg:block    md:hidden sm:hidden  ">
-        <button className=" hover:bg-sky-700  hover:text-white text-gray-900 dark:text-gray-100 btn glass mr-5">
-          Home
-        </button>
-        <button className=" hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost  glass  mr-5">
+      {/* navbar-end  mr-5*/}
+
+      <div className="join join-vertical lg:join-horizontal   2xl:block xl:block lg:block    md:hidden sm:hidden  ">
+        <Link href="/">
+          <button className=" btn  hover:bg-sky-700  hover:text-white text-gray-900 dark:text-gray-100 glass mr-5">
+            Home
+          </button>
+        </Link>
+        <button className="btn  hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100  glass  mr-5">
           About
         </button>
         <Link href="/contacts">
-          <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn bt-ghost   glass  mr-5">
+          <button className="text-base font-semibold hover:bg-sky-700  hover:text-white  text-gray-900 dark:text-gray-100 btn   glass  mr-5">
             Contact
           </button>
         </Link>

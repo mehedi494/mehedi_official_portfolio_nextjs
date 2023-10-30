@@ -2,7 +2,7 @@ import Image from "next/image";
 import useDownloader from "react-use-downloader";
 import Typewriter from "typewriter-effect";
 import dp from "../public/me-with-shape.png";
-import Styles from"../styles/heroSection.module.css";
+import Styles from "../styles/heroSection.module.css";
 
 function HeroSection({ StyleHeroSec }) {
   const { size, elapsed, percentage, download, cancel, error, isInProgress } =
@@ -13,7 +13,7 @@ function HeroSection({ StyleHeroSec }) {
   return (
     <>
       <div
-        className="text-stone-900 dark:text-white mt-5 grid md:grid-cols-2 lg:grid-cols-2
+        className="text-stone-900 dark:text-white grid md:grid-cols-2 lg:grid-cols-2
         sm:grid-col-1  gap-5 w-full  h-full ">
         <div className="lg:order-first md:order first sm:order-last flex-row-1 mx-auto my-auto items-center text-justify p-4">
           <p className="font-poppins font-regular text-base ">

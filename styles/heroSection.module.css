@@ -1,19 +1,21 @@
 .swanAnimantion {
-  animation: swanAnimantion 8s alternate-reverse  infinite;
+  animation: swanAnimantion 5s alternate-reverse  infinite;
 ;
-  transition: ease-in;
+  transition:all ease-in;
   position: relative;
 }
 @keyframes swanAnimantion {
   0% {
-    top: 0px;
- /*    transition-delay: 5s; */
+    top: -20px;
+    transition: all;
+    transition-delay: .2s;
+
   
   }
 
   100% {
-    top: 50px;
-/*     transition-delay: 5s; */
+    top: 20px;
+    transition-delay:  .3s;
 
 
   }

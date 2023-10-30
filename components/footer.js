@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
 
           <div className=" text-center flex flex-col mx-auto ">
-            <code className="text-4xl text-rose-400 font-bold">
+            <code className="text-4xl text-green-400 font-bold">
               MERN STACK ENGINEER
             </code>
             <div className="flex flex-col-2 justify-around ">
@@ -94,7 +94,7 @@ const Footer = () => {
                  <Link href={items.url} target="_blank" key={index}>
                   <li
                     
-                    className="text-rose-400 hover:text-gray-200 cursor-pointer hover:transition-all">
+                    className="text-white hover:text-gray-200 cursor-pointer hover:transition-all">
                     {items.tools}
                   </li></Link>
                 ))}
@@ -102,7 +102,7 @@ const Footer = () => {
               <ul>
                 {tools2.map((items, index) => (
                   <Link href={items.url} target="_blank" key={index}>
-                    <li className="text-rose-400 hover:text-gray-200 cursor-pointer hover:transition-all">
+                    <li className="text-white hover:text-gray-200 cursor-pointer hover:transition-all">
                       {items.tools}
                     </li>
                   </Link>
