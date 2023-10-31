@@ -6,9 +6,9 @@ const About = () => {
         <div className="text-stone-900 dark:text-white mt-5 grid md:grid-cols-1 lg:grid-cols-2
         sm:grid-col-1  gap-5 w-full  h-full px-4  dark:bg-inherit ">
 
-            <div className="flex-row   justify-center text-justify p-2 h-80    ">
-                <div className="flex justify-center  ">
-                    <iframe className=" w-[560px] h-[315px] sm:w-[360px] sm:h-[315px] " src="https://www.youtube.com/embed/Tn6-PIqc4UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div className="flex-row w-full h-full  justify-center text-justify p-2     ">
+                <div className="h-full">
+                    <iframe className=" max-w-screen-md min-w-full h-full  " src="https://www.youtube.com/embed/Tn6-PIqc4UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 {/* <div className="py-5 ">
                     <h1 className="text-center text-xl font-bold font-Josefin">Java Script</h1>

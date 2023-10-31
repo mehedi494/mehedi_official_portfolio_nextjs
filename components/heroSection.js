@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import useDownloader from "react-use-downloader";
 import Typewriter from "typewriter-effect";
-import dp from "../public/me-with-shape.png";
+import dp from "../public//shape-munna.png";
 import Styles from "../styles/heroSection.module.css";
 
 function HeroSection({ StyleHeroSec }) {
@@ -11,7 +12,7 @@ function HeroSection({ StyleHeroSec }) {
   const filename = "Full Stack Resume (Oct-2023).pdf";
 
   return (
-    < >
+    <>
       <div
         className="  text-stone-900 dark:text-white grid md:grid-cols-2 lg:grid-cols-2
         sm:grid-col-1  gap-5 w-full  h-full ">
@@ -49,9 +50,11 @@ function HeroSection({ StyleHeroSec }) {
             work with an end goal in mind.
           </p>
           <div className="mt-5 flex justify-base gap-4">
-            <button className="btn btn-lg  outline-dashed   dark:hover:text-white">
-              HIRE ME
-            </button>
+            <Link href="/contacts">
+              <button className="btn btn-lg  outline-dashed   dark:hover:text-white">
+                HIRE ME
+              </button>
+            </Link>
 
             <button
               onClick={() => download(fileUrl, filename)}

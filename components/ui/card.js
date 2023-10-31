@@ -16,8 +16,8 @@ const Card = ({
     <div className="card w-80 glass ">
       <div className="">
         <Image
-          width={300}
-          height={200}
+          width={200}
+          height={100}
           className="w-full max-h-[200px] rounded-t-xl"
           src={srcUrl}
           alt="car!"

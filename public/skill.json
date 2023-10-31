@@ -1,0 +1,153 @@
+[
+  {
+    "name": "JavaScript",
+    "imageUrl": "https://i.ibb.co/K96HcGG/js.png",
+    "type":"language",
+    "description": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat."
+  },
+  {
+    "name": "TypeScript",
+    "imageUrl": "https://i.ibb.co/m4g0jxN/Type-Script.png",
+    "type":"language",
+    "description": "TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience by catching errors and providing fixes."
+  },
+
+  {
+    "name": "HTML",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/QbyG536/HTML-logo.png",
+    "description": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser."
+  },
+  {
+    "name": "Css",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/5cZjYFJ/Csslogo.png",
+    "description": "CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files."
+  },
+  {
+    "name": "React.js",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/jMDKGPp/react.png",
+    "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
+  },
+  {
+    "name": "Next.js",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/SBbFgv2/Nexjs.webp",
+    "description": "Next.js by Vercel is the full-stack React framework for the web."
+  },
+  {
+    "name": "Redux and RTK query",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/J2Q7x7C/Redux.png",
+    "description": "Redux is a very popular JavaScript library that is designed to manage the state of data in JavaScript applications. Irina Jēkabsone. Developer and Technigo alumni. LinkedIn. Although you can use Redux with different frameworks and libraries, it is most commonly used with React."
+  },
+  {
+    "name": "Tailwind css",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/ZXzpG9S/Tailwind-Csslogo.png",
+    "description": "ilwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It's fast, flexible, and reliable — with zero-runtime."
+  },
+  {
+    "name": "Boostrap css",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/qnBjj1M/Bootstrap-logo-svg.png",
+    "description": "Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins."
+  },
+  {
+    "name": "Material UI css",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/JRx6SnQ/material-ui-logo.png",
+    "description": "Material UI provides an optional CssBaseline component. It fixes some inconsistencies across browsers and devices while providing resets that are better tailored to fit Material UI than alternative global style sheets like normalize"
+  },
+  {
+    "name": "Ant design",
+    "type":"frontend",
+    "imageUrl": "https://i.ibb.co/TKtBbv3/ant-design-logo.png",
+    "description": "An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprises."
+  },
+  {
+    "name": "Node.js",
+    "type":"backend",
+    "imageUrl": "https://i.ibb.co/54xqqKf/Nodejs-Logo.png",
+    "description": "Node. js is an open-source, cross-platform JavaScript runtime environment and library for running web applications outside the client's browser. Ryan Dahl developed it in 2009, and its latest iteration, version 15.14, was released in April 2021."
+  },
+  {
+    "name": "Express.js",
+    "type":"backend",
+    "imageUrl": "https://i.ibb.co/VVH344Z/express.png",
+    "description": "Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the"
+  },
+  {
+    "name": "MongoDB",
+    "type":"database",
+    "imageUrl": "https://i.ibb.co/86NNvjN/mongodb-thumbnail.png",
+    "description": "MongoDB is a non-relational document database that provides support for JSON-like storage. The MongoDB database has a flexible data model that enables you to store unstructured data, and it provides full indexing support, and replication with rich and intuitive APIs."
+  },
+  {
+    "name": "PostgresSQL",
+    "type":"database",
+    "imageUrl": "https://i.ibb.co/103Y3rt/postgresql-logo.png",
+    "description": "MongoDB is a non-relational document database that provides support for JSON-like storage. The MongoDB database has a flexible data model that enables you to store unstructured data, and it provides full indexing support, and replication with rich and intuitive APIs."
+  },
+  {
+    "name": "NGINX",
+    "type":"server",
+    "imageUrl": "https://i.ibb.co/6WHxHMb/Nginx1.png",
+    "description": "NGINX is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. NGINX is known for its high performance, stability, rich feature set, simple configuration, and low resource consumption. NGINX is one of a handful of servers written to address the C10K problem."
+  },
+  {
+    "name": "AWS",
+    "type":"cloud",
+    "imageUrl": "https://i.ibb.co/VgFp2zR/aws-logo.jpg",
+    "description": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally."
+  },
+  {
+    "name": "Docker",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/C0TwnDN/docke-Logol.png",
+    "description": "Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime."
+  },
+  {
+    "name": "JWT (Json Web Token)",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/fSyPJjH/jwt-logo-png-transparent.png",
+    "description": "JSON web token (JWT), pronounced 'jot', is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. Again, JWT is a standard, meaning that all JWTs are tokens, but not all tokens are JWTs."
+  },
+  {
+    "name": "Prisma",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/XFR6jgP/prisma-Logo.jpg",
+    "description": "Prisma is a server-side library that helps developers read and write data to the database in an intuitive, efficient and safe way."
+  },
+  {
+    "name": "Mongoose",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/HGfH6MZ/mongooselogo.png",
+    "description": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB."
+  },
+  {
+    "name": "Firebase",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/DKNvwh6/firebasel-Logo.png",
+    "description": "The Firebase Realtime Database is a cloud-hosted NoSQL database that lets organizations store and sync data in real time across all of their users' devices. This makes it easy to build apps that are always up to date, even when users are offline."
+  },
+  {
+    "name": "GraphQl",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/K6SVVKb/Graph-Ql-Logo.png",
+    "description": "GraphQL is an open source query language that describes how a client should request information through an API. In a broad sense, GraphQL is a syntax developers can use to ask for specific data and return that data from multiple sources."
+  },
+  {
+    "name": "Socket.IO",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/ccJVtzW/Socket-io.png",
+    "description": "Socket.IO is an event-driven library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers. It consists of two components: a client, and a server. Both components have a nearly identical API."
+  },
+  {
+    "name": "Github",
+    "type":"utils",
+    "imageUrl": "https://i.ibb.co/cvCNRYZ/github-Logo.png",
+    "description": "Introduction. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests."
+  }
+]
